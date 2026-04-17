@@ -1,0 +1,43 @@
+node_modules/
+
+# Secrets & local config — NEVER commit these
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+.claude/
+*.pem
+*.key
+
+# Databases & build artifacts
+*.db
+*.db-journal
+backend/storage/*
+!backend/storage/.gitkeep
+backend/data/*.db
+frontend/dist/
+
+# Test artifacts generated during local runs
+backend/job*.json
+backend/j*.json
+backend/gen*.json
+backend/ins*.json
+backend/k.json
+backend/cur*.json
+backend/chat*.json
+backend/confirmed*.json
+backend/conf*.json
+backend/c.json
+backend/u*.json
+backend/sample-*.csv
+backend/sample-*.xlsx
+backend/make-test-*.js
+backend/confirm-mapping.js
+backend/server.log
+
+# Editor / OS
+.DS_Store
+*.log
+.vscode/
+.idea/

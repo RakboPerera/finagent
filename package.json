@@ -1,0 +1,13 @@
+{
+  "name": "finagent",
+  "version": "0.1.0",
+  "description": "FinAgent — Tool 1: Gen AI Financial Chatbot",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && node server.js"
+  }
+}
